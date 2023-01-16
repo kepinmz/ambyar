@@ -1,13 +1,13 @@
 import 'package:ambyar_app/models/agenda_model.dart';
-//import 'package:ambyar_app/models/kegiatan_model.dart';
+import 'package:ambyar_app/models/kegiatan_model.dart';
 import 'package:flutter/material.dart';
 import '../../shared/theme.dart';
 import '../pages/agenda_page.dart';
 
 class AgendaCard extends StatelessWidget {
-  final AgendaModel agenda;
+  final KegiatanModel kegiatan;
   const AgendaCard(
-    this.agenda, {
+    this.kegiatan, {
     Key? key,
   }) : super(key: key);
 
@@ -49,14 +49,14 @@ class AgendaCard extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  agenda.title,
+                  kegiatan.title,
                   style: whiteTextStyle.copyWith(
                     fontSize: 18,
                     fontWeight: medium,
                   ),
                 ),
                 Text(
-                  agenda.tanggal,
+                  kegiatan.tanggal,
                   style: whiteTextStyle.copyWith(
                     fontWeight: light,
                   ),

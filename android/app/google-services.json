@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "319634148805",
+    "project_id": "ambyar-7e4fd",
+    "storage_bucket": "ambyar-7e4fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319634148805:android:0a600cb1e8a00661464fac",
+        "android_client_info": {
+          "package_name": "com.kepinmz.ambyar_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "319634148805-lga4bg0162gnnl8ft924g4ga7gf8lu9m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKTGo6reYIgb-gCBXITh0f849a6fkhb4Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "319634148805-lga4bg0162gnnl8ft924g4ga7gf8lu9m.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "319634148805-sr4m1o731t0sm9q66gq31u9fiiafkqhq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.kepinmz.ambyar"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
